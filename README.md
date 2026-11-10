@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SalesPredict — MLP Sales Forecasting Website
 
 A Flask frontend/backend for monthly product sales forecasting using a TensorFlow/Keras MLP. It includes two supporting features: SHAP local explanations and Isolation Forest out-of-distribution (OOD) warnings.
@@ -69,3 +70,6 @@ The app asks for a product and a completed historical feature month. It uses the
 - The script uses a zero-sales assumption for product-months without recorded transactions. Validate this assumption against the dataset/business context before reporting results.
 - Do not publish `debug=True` in production. Use a production WSGI server such as Waitress or Gunicorn and HTTPS for deployment.
 - The model is not trained until you run `train_model.py` against the actual CSV. The website package does not contain fabricated metrics or a fabricated trained model.
+=======
+# PancingMania
+>>>>>>> be46e5401c80fd8f139394360a0a90ed5251bea7
