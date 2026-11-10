@@ -1,0 +1,3 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SalesPredict | Setup</title><link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}"></head><body><main class="setup"><div class="brand"><span class="logo">SP</span><span>SalesPredict</span></div><h1>Model belum siap digunakan</h1><p class="muted">Website sudah berjalan, tetapi artefak model belum ditemukan.</p><div class="alert">{{ error }}</div><h3>Jalankan training model</h3><pre>pip install -r requirements.txt
+python train_model.py --data US_Regional_Sales_Data.csv
+python app.py</pre><p class="muted">Letakkan file dataset di folder proyek atau berikan path lengkap pada perintah training.</p></main></body></html>

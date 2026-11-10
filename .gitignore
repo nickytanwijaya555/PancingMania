@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+venv/
+artifacts/*
+!artifacts/.gitkeep
+*.pyc
+.DS_Store
